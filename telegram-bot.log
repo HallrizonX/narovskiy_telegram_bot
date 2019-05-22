@@ -1,0 +1,64 @@
+22-May-19 13:06:24 - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:06:24 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 319, in _network_loop_retry
+    if not action_cb():
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 280, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 1975, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 233, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:07:01 - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:07:01 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 319, in _network_loop_retry
+    if not action_cb():
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 280, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 1975, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 233, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:07:32 - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:07:32 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 319, in _network_loop_retry
+    if not action_cb():
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 280, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 1975, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 233, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:08:09 - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+22-May-19 13:08:09 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 319, in _network_loop_retry
+    if not action_cb():
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/ext/updater.py", line 280, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/bot.py", line 1975, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/home/kmink/PycharmProjects/favorit/venv/lib/python3.7/site-packages/telegram/utils/request.py", line 233, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
